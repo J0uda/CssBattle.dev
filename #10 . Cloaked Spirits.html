@@ -1,0 +1,50 @@
+<div class="rectangle">
+  <div class="circle"></div>
+</div>
+<div class="rectangle center">
+  <div class="circle"></div>
+</div>
+<div class="rectangle">
+  <div class="circle"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #62306d;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 50px;
+  }
+  .rectangle {
+    background: #f7ec7d;
+    width: calc(100% / 3);
+    height: 100px;
+  }
+  .rectangle.center {
+    height: 200px;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #e38f66;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 20px solid #aa445f;
+  }
+  .center .circle {
+    background: #aa445f;
+    border-color: #e38f66;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
