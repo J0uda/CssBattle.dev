@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="circle">
+    <div class="circle-center"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b2429;
+  }
+  .container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: #998235;
+    border-radius: 50% 0% 50% 0%;
+    transform: rotate(45deg);
+  }
+  .circle {
+    width: 140px;
+    height: 140px;
+    background: #f3ac3c;
+    border-radius: 50%;
+    position: absolute;
+    top: 10;
+    left: 10;
+    border: 20px solid #0b2429;
+  }
+  .circle-center {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #0b2429;
+    border-radius: 50%;
+    margin: 45;
+  }
+</style>

@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="box bg-orange"></div>
+  <div class="box bg-light"></div>
+  <div class="box bg-orange"></div>
+  <div class="box bg-light"></div>
+  <div class="box bg-light"></div>
+  <div class="box bg-orange"></div>
+  <div class="box bg-light"></div>
+  <div class="box bg-orange"></div>
+  <div class="box bg-orange"></div>
+  <div class="box bg-light"></div>
+  <div class="box bg-orange"></div>
+  <div class="box bg-light"></div>
+</div>
+
+<style>
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    background: #5c434c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .box {
+    width: 80px;
+    height: 80px;
+    background: red;
+    margin: 10px;
+    border-top-left-radius: 100%;
+  }
+  .bg-orange {
+    background: #f09462;
+  }
+  .bg-light {
+    background: #f5d6b4;
+  }
+</style>
