@@ -1,0 +1,41 @@
+<div class="green-2"></div>
+<div class="green"></div>
+<div class="yellow"></div>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #0b2429;
+  }
+  .green {
+    background: #1a4341;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 80;
+    right: 130;
+    transform: skew(0deg, 45deg);
+  }
+  .green-2 {
+    position: absolute;
+    top: 80;
+    left: 130;
+    width: 70px;
+    height: 70px;
+    background: #998235;
+    transform: skew(0deg, -45deg);
+  }
+  .yellow {
+    position: absolute;
+    top: 135;
+    width: 100px;
+    height: 100px;
+    background: #f3ac3c;
+    transform: rotate(45deg);
+  }
+</style>

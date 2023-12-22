@@ -1,0 +1,67 @@
+<div class="contaienr">
+  <div class="round-dotted lg top-left"></div>
+  <div class="round-dotted sm top-right"></div>
+  <div class="round-dotted lg bottom-right"></div>
+  <div class="round-dotted lg bottom-left"></div>
+  <div class="round-dotted lg right"></div>
+  <div class="round-dotted sm left"></div>
+  <div class="bg-yellow"></div>
+  <div class="bg-orange"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #62306d;
+  }
+  .contaienr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .bg-yellow {
+    background: #f7ec7d;
+    width: 140px;
+    height: 100px;
+  }
+  .bg-orange {
+    width: 60px;
+    height: 100px;
+    background: #e38f66;
+  }
+  .lg {
+    width: 40px;
+    height: 40px;
+  }
+  .top-left {
+    transform: translate(-100px, -50px);
+  }
+  .top-right {
+    transform: translate(40px, 50px);
+  }
+  .bottom-right {
+    transform: translate(-100px, 50px);
+  }
+  .bottom-left {
+    transform: translate(100px, 50px);
+  }
+  .left {
+    transform: translate(40px, -50px);
+  }
+  .right {
+    transform: translate(100px, -50px);
+  }
+  .sm {
+    width: 20px;
+    height: 20px;
+  }
+  .round-dotted {
+    position: absolute;
+    background: #62306d;
+    border-radius: 50%;
+  }
+</style>
